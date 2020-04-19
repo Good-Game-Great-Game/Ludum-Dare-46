@@ -1,1 +1,3 @@
 # Ludum-Dare-46
+This was created for the ludum dare 46...
+Feel free to download this project.
