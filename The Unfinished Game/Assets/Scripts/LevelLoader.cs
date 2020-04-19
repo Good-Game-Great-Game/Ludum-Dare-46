@@ -22,6 +22,7 @@ public class LevelLoader : MonoBehaviour
             if(BugSpawner.spawnEnemyNo <= 0 && GlitcherSpawner.spawnEnemyNo <= 0 && BugSpawner.isGameStarted)
             {
                 StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex + 2));
+                BugSpawner.isGameStarted = false;
             }
         }
         if(SceneManager.GetActiveScene().buildIndex == 0)
